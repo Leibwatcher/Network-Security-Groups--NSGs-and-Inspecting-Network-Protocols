@@ -32,12 +32,20 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 
 <h2>Actions and Observations</h2>
-
+Step one: Install Resource Group
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+You'll need to create a "Resourse Group" so the vitrual machines that are used, are housed in one place. This helps to keep things orginzed and help keeps track on traffic between the two machines. 
+So to get started first we'll create a "Resourse Group" and to create one is head to the search bar and quick search "Resource Group" or seletect "Create a Resource" within the Azure Portal. Then select the "create a Resource".
+  
+  
+ ![Screenshot 2023-08-27 121224](https://github.com/Leibwatcher/Network-Security-Groups--NSGs-and-Inspecting-Network-Protocols/assets/137578446/0e455b1d-680e-45e2-93b7-1918ff4a9c7f)
+
+
+
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
 </p>
 <br />
 
