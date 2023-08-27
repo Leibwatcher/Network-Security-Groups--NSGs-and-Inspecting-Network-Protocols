@@ -32,7 +32,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 
 <h2>Actions and Observations</h2>
-Step one: Install Resource Group
+STEP ONE: INSTALL RESOUCE GROUP
 <p>
 You'll need to create a "Resourse Group" so the vitrual machines that are used, are housed in one place. This helps to keep things orginzed and help keeps track on traffic between the two machines. 
 So to get started first we'll create a "Resourse Group" and to create one is head to the search bar and quick search "Resource Group" or seletect "Create a Resource" within the Azure Portal. Then select the "create a Resource".
@@ -67,4 +67,17 @@ For the second VM choose the same info. But for the name abd the image will be d
 After both are done being created, you can go to your "vitrual Machine" tab or your "Resource Group" tab in the Azure front page. You can view both Vitrual machine at once and you observe both have different operating system. 
 
 ![Screenshot 2023-08-24 172348](https://github.com/Leibwatcher/Network-Security-Groups--NSGs-and-Inspecting-Network-Protocols/assets/137578446/d485a0c4-386e-49c2-bb02-765f4aa1405c)
+
+
+STEP2: INSTALL WIRESHARK
+
+With your Virtual Machines are done and ready. A quick search for "Remote Desktop Connection" and enter the the public Ip Address of VM1 and enter the virtual machine. 
+
+
+
+
+
+
+
+
 
