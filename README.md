@@ -61,8 +61,7 @@ For the second VM choose the same info. But for the name abd the image will be d
 
 ![Screenshot 2023-08-24 171720](https://github.com/Leibwatcher/Network-Security-Groups--NSGs-and-Inspecting-Network-Protocols/assets/137578446/5f40ccd9-584a-4576-b21c-a95bbbc81d89)
 
+After both are done being created, you can go to your "vitrual Machine" tab or your "Resource Group" tab in the Azure front page. You can view both Vitrual machine at once and you observe both have different operating system. 
 
+![Screenshot 2023-08-24 172348](https://github.com/Leibwatcher/Network-Security-Groups--NSGs-and-Inspecting-Network-Protocols/assets/137578446/d485a0c4-386e-49c2-bb02-765f4aa1405c)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
