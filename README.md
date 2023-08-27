@@ -9,7 +9,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>Video Demonstration</h2>
 
--
+
 
 <h2>Environments and Technologies Used</h2>
 
