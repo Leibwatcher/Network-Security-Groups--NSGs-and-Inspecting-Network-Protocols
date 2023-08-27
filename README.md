@@ -40,27 +40,29 @@ So to get started first we'll create a "Resourse Group" and to create one is hea
   
  ![Screenshot 2023-08-27 121224](https://github.com/Leibwatcher/Network-Security-Groups--NSGs-and-Inspecting-Network-Protocols/assets/137578446/0e455b1d-680e-45e2-93b7-1918ff4a9c7f)
 
+On the top left click on on "+ Create" or Create Resourse Group" in the middle of the page. This create a hub for your "vitrual Machines".
+
+![Screenshot 2023-08-27 121047](https://github.com/Leibwatcher/Network-Security-Groups--NSGs-and-Inspecting-Network-Protocols/assets/137578446/a948cee7-d235-4d38-a230-7a32e704b50b)
+
+In the "Project Details" select your subscripion name then "create" a name for your "Resouce Group" Here mine is "Lab2". Lastly, select the appropriate Region for you. Closer to your region the cheaper the cost of the service.
+
+
+![Screenshot 2023-08-27 121200](https://github.com/Leibwatcher/Network-Security-Groups--NSGs-and-Inspecting-Network-Protocols/assets/137578446/2c6fc021-48a4-4951-9262-4c2c4be92c39)
+
+To create the two "vitrual machine" repeat the steps that created the "Resource Group". These two "Vitrual Machines" will allow us to send traffic between the two machines. Naming the two Machines  will help you keep things orginzed. Since there are two vitual machines, the first one will be created "Windows Operating System" and name this one "VM1". To create VM go to search type " Vitrual Machine" and +create "Azure Virtual Machine". Just like in the creating the Resource group, select the Subsription, Resource Group, name your Vitrual Machnine(VM1), your Region, then select Windows 10 Pro version 22H2-x64 Gen2 for the VM "Image. Then select the "Size" of the VM. Must be "2 vcpus" or bigger. Make sure you check mark the "I confirm" box then procced to "review + Create" and again "Create".
+
+![Screenshot 2023-08-24 171447](https://github.com/Leibwatcher/Network-Security-Groups--NSGs-and-Inspecting-Network-Protocols/assets/137578446/67d80e13-8c1f-4b23-9257-4e69377e5c95)
+
+
+![Screenshot 2023-08-24 171807](https://github.com/Leibwatcher/Network-Security-Groups--NSGs-and-Inspecting-Network-Protocols/assets/137578446/54d47afa-6037-4b82-a3b2-23baa8a32ecc)
+
+
+For the second VM choose the same info. But for the name abd the image will be different. So name the second "VM" (VM2) and select the "Ubuntu Server 20.04 LTS-x64 Gen2. Finish the rest and then create + review.   
+
+![Screenshot 2023-08-24 171720](https://github.com/Leibwatcher/Network-Security-Groups--NSGs-and-Inspecting-Network-Protocols/assets/137578446/5f40ccd9-584a-4576-b21c-a95bbbc81d89)
 
 
 
-</p>
-<p>
-
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
