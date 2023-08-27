@@ -53,11 +53,11 @@ To create the two "vitrual machine" repeat the steps that created the "Resource 
 
 ![Screenshot 2023-08-24 171447](https://github.com/Leibwatcher/Network-Security-Groups--NSGs-and-Inspecting-Network-Protocols/assets/137578446/67d80e13-8c1f-4b23-9257-4e69377e5c95)
 
+![Screenshot 2023-08-24 171516](https://github.com/Leibwatcher/Network-Security-Groups--NSGs-and-Inspecting-Network-Protocols/assets/137578446/cef2d31e-6bde-46f0-87f8-3167e2c9869e)
+
 
 ![Screenshot 2023-08-24 171807](https://github.com/Leibwatcher/Network-Security-Groups--NSGs-and-Inspecting-Network-Protocols/assets/137578446/54d47afa-6037-4b82-a3b2-23baa8a32ecc)
 
-
-![Screenshot 2023-08-24 171516](https://github.com/Leibwatcher/Network-Security-Groups--NSGs-and-Inspecting-Network-Protocols/assets/137578446/77250c62-5ecf-4548-8801-3ddeecb9f417)
 
 
 For the second VM choose the same info. But for the name abd the image will be different. So name the second "VM" (VM2) and select the "Ubuntu Server 20.04 LTS-x64 Gen2. Finish the rest and then create + review.   
