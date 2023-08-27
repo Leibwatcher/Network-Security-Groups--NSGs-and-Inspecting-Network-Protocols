@@ -71,13 +71,20 @@ After both are done being created, you can go to your "vitrual Machine" tab or y
 
 STEP2: INSTALL WIRESHARK
 
-With your Virtual Machines are done and ready. A quick search for "Remote Desktop Connection" and enter the the public Ip Address of VM1 and enter the virtual machine. 
+With your Virtual Machines are done and ready. A quick search for "Remote Desktop Connection" and enter the the public Ip Address of VM1 (Windows 10 21H2) and enter the virtual machine. This VM is where we install Wireshark(packet analysis software).
+Install Wireshark (Window Installer 64-bit) and continue with all default settings.
 
 
+![Annotation 2023-08-07 212358](https://github.com/Leibwatcher/Network-Security-Groups--NSGs-and-Inspecting-Network-Protocols/assets/137578446/32190aee-3e34-46a2-898a-50ee9de589bc)
+
+![Annotation 2023-08-07 212458](https://github.com/Leibwatcher/Network-Security-Groups--NSGs-and-Inspecting-Network-Protocols/assets/137578446/33cc9b0c-743b-4912-b913-8cb19735dd69)
+
+![Annotation 2023-08-07 212544](https://github.com/Leibwatcher/Network-Security-Groups--NSGs-and-Inspecting-Network-Protocols/assets/137578446/8d6959c4-c6ce-4998-be0b-b2ef5f909564)
+
+After it's done installing, open start and search for Wireshark and open it. When you're in the program on the top left under the "FILE" tap there is a blue fin. Click on it'll open a capture page and this where we'll see the traffic. Can you see the traffic that's already coming in?
 
 
+![Screenshot 2023-08-07 172903](https://github.com/Leibwatcher/Network-Security-Groups--NSGs-and-Inspecting-Network-Protocols/assets/137578446/9f5ccc9f-2694-4d8b-a848-4c9bef3a2961)
 
-
-
-
+![Annotation 2023-08-07 213009](https://github.com/Leibwatcher/Network-Security-Groups--NSGs-and-Inspecting-Network-Protocols/assets/137578446/e0ed93d1-7150-4a1a-bd6a-3a9ccbe88a1f)
 
