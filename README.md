@@ -126,7 +126,8 @@ Next in Wireshark type DNS and refresh then Observe "DNS" "Domain Name System" t
 
 After DNS back to the filter bar for the RDP traffic only (tcp.port ==3389) because the RDP (Protocol) this will show you a constantly live stream from one computer to another. It will continuous transmitt the traffic.
 
-That is the end of the lab. Log out of the both VMs and back into the Azure portal and delete the Resource Group this will delete both VMs as well. Go and type in the search bar "Resource Group" and delete. cope and past the name of the Resource Group name and click "delete" 
+That is the end of the lab. Log out of the both VMs and back into the Azure portal and delete the Resource Group this will delete both VMs as well. Go and type in the search bar "Resource Group" and delete. cope and past the name of the Resource Group name and click "delete".
+
 
 
 Speed doesnt matter, keep going!
