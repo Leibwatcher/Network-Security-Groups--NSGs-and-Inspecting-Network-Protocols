@@ -100,12 +100,33 @@ Wireshark on the left and Command Prompt(Run as Administrator) on Right. Use "pi
 ![Annotation 2023-08-07 213804](https://github.com/Leibwatcher/Network-Security-Groups--NSGs-and-Inspecting-Network-Protocols/assets/137578446/a4450174-62e2-47e1-9988-ff358307efbc)
 
 We also can deny the ping request by adding this rule to our Network Security Group within our Virtual machine. After we make the changes to our VM2 we'll see that the ping that was sent will time-out. 
-Back in the Azure portal head to VM2 and settings Inbound Security Rule click +add then in the change the Protocol to "ICMP" and "DENY" for action, change the Priority to 300(I made a mistake in the example photo). and name it "DenyAnyCustomAnyInbound" then click "Add" 
+Back in the Azure portal head to VM2 and settings Inbound Security Rule click +add then in the change the Protocol to "ICMP" and "DENY" for action, change the Priority to 200(I made a mistake in the example photo). and name it "DenyAnyCustomAnyInbound" then click "Add" 
 
 ![Screenshot 2023-08-07 174006](https://github.com/Leibwatcher/Network-Security-Groups--NSGs-and-Inspecting-Network-Protocols/assets/137578446/c67cc9b5-3ae3-43d1-b1ba-bef8d6c9b793)
 
 ![Screenshot 2023-08-07 174246](https://github.com/Leibwatcher/Network-Security-Groups--NSGs-and-Inspecting-Network-Protocols/assets/137578446/90be9fc2-02a7-42f2-8239-621a804b1f96)
 
+Go back in to Powershell (VM1) and you will notice that the request has timed out. In Wireshark it'll say "Request" only.
+
 ![Screenshot 2023-08-07 174819](https://github.com/Leibwatcher/Network-Security-Groups--NSGs-and-Inspecting-Network-Protocols/assets/137578446/61f7fa54-c5ab-4f97-8b33-26886824e105)
 
+To allow this rule back, just return to the network security group to delete the rule or select the rule and allow the rule again.
 
+Back into Wireshark, we will change the filter bar to SSH or tcp.port==22, then move over to Command promt, here we can login to the other VM (Linux Ubuntu Server) "ssh username@ip adress" your private IP address
+
+![Screenshot 2023-08-09 190436](https://github.com/Leibwatcher/Network-Security-Groups--NSGs-and-Inspecting-Network-Protocols/assets/137578446/e1038974-d5fe-4d08-9fa5-d19a2166fdea)
+
+After Obserbing the ssh back to Wireshark filtering bar and enter "DHCP" only traffic 
+
+![Annotation 2023-08-09 230605](https://github.com/Leibwatcher/Network-Security-Groups--NSGs-and-Inspecting-Network-Protocols/assets/137578446/9807e216-ae94-414a-91d4-8f4d5ca3bfab)
+
+Next in Wireshark type DNS and refresh then Observe "DNS" "Domain Name System" traffic. Then Powershell or Commd promt type in "nslookup" www.google.com or www.disney.com (this is just asking what their IP address are) 
+
+![Annotation 2023-08-09 230756](https://github.com/Leibwatcher/Network-Security-Groups--NSGs-and-Inspecting-Network-Protocols/assets/137578446/f6f517aa-d4a7-4fe6-b448-75e3e1b1f10c)
+
+After DNS back to the filter bar for the RDP traffic only (tcp.port ==3389) because the RDP (Protocol) this will show you a constantly live stream from one computer to another. It will continuous transmitt the traffic.
+
+That is the end of the lab. Log out of the both VMs and back into the Azure portal and delete the Resource Group this will delete both VMs as well. Go and type in the search bar "Resource Group" and delete. cope and past the name of the Resource Group name and click "delete" 
+
+
+Speed doesnt matter, keep going!
