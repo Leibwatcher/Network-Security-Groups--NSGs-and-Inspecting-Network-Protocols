@@ -69,7 +69,7 @@ After both are done being created, you can go to your "vitrual Machine" tab or y
 ![Screenshot 2023-08-24 172348](https://github.com/Leibwatcher/Network-Security-Groups--NSGs-and-Inspecting-Network-Protocols/assets/137578446/d485a0c4-386e-49c2-bb02-765f4aa1405c)
 
 
-STEP2: INSTALL WIRESHARK
+STEP TWO: INSTALL WIRESHARK
 
 With your Virtual Machines are done and ready. A quick search for "Remote Desktop Connection" and enter the the public Ip Address of VM1 (Windows 10 21H2) and enter the virtual machine. This VM is where we install Wireshark(packet analysis software).
 Install Wireshark (Window Installer 64-bit) and continue with all default settings.
@@ -88,3 +88,5 @@ After it's done installing, open start and search for Wireshark and open it. Whe
 
 ![Annotation 2023-08-07 213009](https://github.com/Leibwatcher/Network-Security-Groups--NSGs-and-Inspecting-Network-Protocols/assets/137578446/e0ed93d1-7150-4a1a-bd6a-3a9ccbe88a1f)
 
+
+STEP THREE: 
