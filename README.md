@@ -90,3 +90,22 @@ After it's done installing, open start and search for Wireshark and open it. Whe
 
 
 STEP THREE: 
+
+With your "VM1" running, next get and copy the IP address for your VM2 (Linux Ubutu Server 20.04) and log into it with Remote Desktop Connection. Go to Command Panel or Powershell(Run as Administrator for either one you use) 
+We can ping the connection between the two machine. 
+
+We can view the the traffic that is traveling between both Vitrual machines. On wireshark we are viewing the traffic on wireshark by filtering it by ICMP. We can try with other Domains like (www.google.com) or any IP addresses.  
+Wireshark on the left and Command Prompt(Run as Administrator) on Right. Use "ping 10.0.0.5 -t" this is a contunious reply from the other VM. 
+
+![Annotation 2023-08-07 213804](https://github.com/Leibwatcher/Network-Security-Groups--NSGs-and-Inspecting-Network-Protocols/assets/137578446/a4450174-62e2-47e1-9988-ff358307efbc)
+
+We also can deny the ping request by adding this rule to our Network Security Group within our Virtual machine. After we make the changes to our VM2 we'll see that the ping that was sent will time-out. 
+Back in the Azure portal head to VM2 and settings Inbound Security Rule click +add then in the change the Protocol to "ICMP" and "DENY" for action, change the Priority to 300(I made a mistake in the example photo). and name it "DenyAnyCustomAnyInbound" then click "Add" 
+
+![Screenshot 2023-08-07 174006](https://github.com/Leibwatcher/Network-Security-Groups--NSGs-and-Inspecting-Network-Protocols/assets/137578446/c67cc9b5-3ae3-43d1-b1ba-bef8d6c9b793)
+
+![Screenshot 2023-08-07 174246](https://github.com/Leibwatcher/Network-Security-Groups--NSGs-and-Inspecting-Network-Protocols/assets/137578446/90be9fc2-02a7-42f2-8239-621a804b1f96)
+
+![Screenshot 2023-08-07 174819](https://github.com/Leibwatcher/Network-Security-Groups--NSGs-and-Inspecting-Network-Protocols/assets/137578446/61f7fa54-c5ab-4f97-8b33-26886824e105)
+
+
